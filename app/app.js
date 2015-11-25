@@ -4,6 +4,7 @@ angular.module('myapp',[])
         vm.model="aa";
     	vm.get=get;
         vm.parentModel="parentModel";
+        var x="added in 2nd commit by going back to second commit and new-branch";
     	function get(){
     		this.name="Ali Zaheer";
     		alert(vm.name);
