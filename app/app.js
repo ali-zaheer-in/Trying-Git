@@ -1,3 +1,4 @@
+(function(){
 angular.module('myapp',[])
     .controller('Main', function() {
     	var vm=this;
@@ -15,3 +16,4 @@ angular.module('myapp',[])
         vm.model="Child!";
     });
 
+})();
