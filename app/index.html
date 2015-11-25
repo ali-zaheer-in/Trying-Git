@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>Try</title>
+    </head>
+  <script type="text/javascript" src="angular.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+    <body ng-app='myapp'>
+    <div ng-controller='Main as parent1'>
+    	<div ng-controller='Child as parent'>
+    		{{parent.model}}
+    		{{parent.parentModel}}
+    		{{parent.ChildModel}}
+            {{isSelectedForScreening}}
+            {{ blue && 'background-color: blue!important' || '' }}
+            <div ng-init="isSelectedForScreening=false" style="cursor:pointer"ng-style="isSelectedForScreening && {'background-color':'cyan'} || {'background-color': 'inherit'}" ng-click="isSelectedForScreening=!isSelectedForScreening">
+                    AAAAAAAAAAAAAAAAA
+                    <br><br>
+                    BBBBBBBBBBBBBBBB
+            </div>
+
+    	</div>
+    </div>
+    </body>
+
+    </html>
