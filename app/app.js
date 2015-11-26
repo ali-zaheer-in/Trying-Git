@@ -3,7 +3,7 @@ angular.module('myapp',[])
     .controller('Main', function() {
     	var vm=this;
         vm.model="aa";
-    	vm.get=   get;
+    	vm.get=   get;//xcxcvxcvxcvxvxvxcvxcvxccvxcvxcvxvxcvxvxcv
         vm.parentModel="parentModel";
         var x="added in 2nd commit by going back to second commit and new-branch";
     	function get(){
