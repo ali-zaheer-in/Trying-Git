@@ -18,3 +18,5 @@ angular.module('myapp',[])
         vm.model="Child!";
     });
 })();
+
+agdam bagdam
