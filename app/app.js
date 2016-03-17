@@ -1,3 +1,4 @@
+ali(function(){
 shweta(function(){
 angular.module('myapp',[])
     .controller('Main', function() {
