@@ -1,4 +1,4 @@
-(function(){
+shweta(function(){
 angular.module('myapp',[])
     .controller('Main', function() {
     	var vm=this;
