@@ -9,7 +9,7 @@ angular.module('myapp',[])
     	function get(){
     		this.name="Ali Zaheer";
     		alert(vm.name);
-    	}
+    	}yrtyetyrtyrty
     })   
     .controller('Child',function(){
         var vm=this;
