@@ -1,4 +1,4 @@
-ali(function(){
+allu(function(){
 shweta(function(){
 angular.module('myapp',[])
     .controller('Main', function() {
